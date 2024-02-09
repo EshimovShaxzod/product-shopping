@@ -1,0 +1,27 @@
+.check-product-rating::before{
+    position: relative;
+    display:block;
+    content: url('../images/star.svg');
+    top: 4px !important;
+    right: 5px;
+}
+
+.check-product-rating{
+    display: flex !important;
+    align-items: center !important;
+    font-size: 20px;
+}
+
+.check-product-count::before{
+    position: relative;
+    display:block;
+    content: url('../images/eye.svg');
+    top: 4px !important;
+    right: 7px;
+}
+
+.check-product-count{
+    display: flex !important;
+    align-items: center !important;
+    font-size: 20px;
+}
